@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1016922861023",
+    "project_id": "almacen-4ee70",
+    "storage_bucket": "almacen-4ee70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016922861023:android:58223e14e1d3f84940686a",
+        "android_client_info": {
+          "package_name": "com.example.almacen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YDkmqrjX6idybjkn0mk_zZtepUoXey0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016922861023:android:c899b3b413aa9ee040686a",
+        "android_client_info": {
+          "package_name": "com.utrm.almacen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YDkmqrjX6idybjkn0mk_zZtepUoXey0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,4 @@
+import 'package:almacen/view/form_task.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -66,7 +67,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-          print ('Hola');
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const AddNewTaskScreen())
+
+            );
         },
         tooltip: 'Agregar tarea',
         child: const Icon(Icons.add),
